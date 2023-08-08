@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Your+Chosen+Google+Font" rel="stylesheet">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Your Quiz Title</title>
+</head>
+
+<body>
+    <h1 id="quiz-title">Quiz Title</h1>
+    <div class="quiz-container">
+        
+        <div class="question-container">
+            <p id="question-text">Question 1: Is this a sample question?</p>
+            <button class="yes-button" onclick="answerQuestion('Yes')"><p class="btn_text">Yes</p></button>
+            <button class="no-button" onclick="answerQuestion('No')"><p class="btn_text">No</p></button>
+        </div>
+        <div class="success-container">
+            <!-- write a final question -->
+            <p id="question-text">final question</p>
+
+            <button class="success-button" onclick="success_btn()"><p class="btn_text">Redirect to sales page</p></button>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Copyright 2023 by Natura-Pure. All rights reserved.</h2>
+        <p>This website is independent and not affiliated with YouTube.com or YouTube Inc. Furthermore, it is</p>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>
